@@ -1,12 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js">
   <head>
     <meta charset="utf-8" />
-    <title>Totally Trivia! Trivia!</title>
+
+    <title>Ultimate Sports Trivia!</title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/javascript/app.js"></script>
+    <script type="text/javascript"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
 
   <body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript"></script>
+    <div id="openingMessage">
+      <div class="openingScreen">
+        <h3>Welcome to</h3>
+        <h1>Ultimate Sports Trivia!</h1>
+        <p>You will be given 60 seconds to answer 10 questions.</p>
+        <p>Click Begin To Start!</p>
+        <button
+          type="button"
+          id="start-btn"
+          class="btn btn-primary black-background white"
+        >
+          Begin
+        </button>
+      </div>
+    </div>
+
+    <div id="answerScreen">
+      <div class="answerKey">
+        <h2>Lets see how you did</h2>
+        <hr />
+        <p id="correctScreen">Correct Answers:</p>
+        <p id="wrongScreen">Wrong Answers:</p>
+      </div>
+    </div>
+
+    <div id="timesUp">
+      <div class="wrongBox">
+        <h2 class="up">Times Up!</h2>
+        <hr />
+        <p>Your results:</p>
+        <p id="correctTimesUp">Correct Answers:</p>
+        <p id="wrongTimesUp">Wrong Answers:</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <header>Ultimate Sports Trivia!</header>
+      <div class="row timeRemain">
+        Time Remaining:
+        <div id="time-remain">60</div>
+      </div>
+
+      <div class="questions">
+        <button
+          type="button"
+          class="btn btn-primary black-background white"
+          id="submit-btn"
+        >
+          Submit
+        </button>
+      </div>
+    </div>
+    <script src="assets/javascript/app.js "></script>
   </body>
 </html>

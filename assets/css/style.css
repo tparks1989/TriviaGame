@@ -1,0 +1,114 @@
+body {
+  background-image: url("../images/lebron.jpg");
+  font-family: "Courier", sans-serif;
+  color: Yellow;
+  letter-spacing: 4px;
+  font-size: 42px;
+}
+
+h1 {
+  font-size: 60px;
+  color: red;
+}
+
+.black-background {
+  background-color: #000000;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.wrongBox {
+  margin: 0 auto;
+  text-align: center;
+  padding: 4%;
+}
+
+label {
+  color: aqua;
+}
+
+.up {
+  color: white;
+}
+
+.timeRemain {
+  padding: 5%;
+  color: red;
+}
+
+.timeRemain #time-remain {
+  font-size: 60px;
+}
+
+.questions {
+  font-size: 30px;
+}
+
+.ques,
+label {
+  padding: 3%;
+}
+
+header {
+  font-size: 60px;
+  color: yellow;
+  margin-top: 5%;
+}
+
+#openingMessage {
+  background-image: url("../images/carson.jpeg");
+  background-repeat: no-repeat;
+  width: 35%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.openingScreen {
+  margin: 0 auto;
+  text-align: center;
+  padding: 4%;
+  margin-top: 40%;
+}
+
+.answerKey {
+  margin: 0 auto;
+  text-align: center;
+  padding: 4%;
+}
+
+#timesUp {
+  display: none;
+  background-image: url("../images/floyd.jpeg");
+  background-repeat: no-repeat;
+  width: 45%;
+  margin: 0 auto;
+  padding: 5%;
+  margin-top: 25%;
+  font-size: 25px;
+}
+
+#answerScreen {
+  display: none;
+  background-image: url("../images/Griffey.jpg");
+  background-repeat: no-repeat;
+  width: 60%;
+  margin: 0 auto;
+  padding: 5%;
+  margin-top: 25%;
+  font-size: 30px;
+}
+
+body .container {
+  background-image: url("../images/lebron.jpg");
+  height: 100%;
+  text-align: center;
+  display: none;
+  margin-bottom: 5%;
+  padding-bottom: 5%;
+  margin-top: 5%;
+  border-radius: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
