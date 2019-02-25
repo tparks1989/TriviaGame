@@ -151,7 +151,7 @@ var countdown = function(seconds) {
   });
 };
 
-var gradeQuiz = $("#sub-but").on("click", function() {
+var gradeQuiz = $("#submit-btn").on("click", function() {
   var correctAnswers = 0;
   var wrongAnswers = 0;
   var unAnswered = 0;
