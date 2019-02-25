@@ -146,7 +146,7 @@ var countdown = function(seconds) {
     }
   }, 1000);
 
-  $("#sub-but").on("click", function() {
+  $("#submit-btn").on("click", function() {
     clearInterval(timer);
   });
 };
